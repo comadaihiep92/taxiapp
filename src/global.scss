@@ -24,3 +24,23 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+.popover-content.sc-ion-popover-ios {
+    width: 80% !important;
+    text-align: center;
+    margin: auto;
+}
+
+.header-md::after {
+    content: none !important;
+}
+
+div.item-native {
+    display: contents !important;
+}
+
+.item-native {
+    display: contents !important;
+}
+
+.item-native .item-inner{display: contents !important;}

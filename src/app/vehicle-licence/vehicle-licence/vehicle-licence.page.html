@@ -1,0 +1,36 @@
+<ion-header class="ion-no-border header">
+  <ion-toolbar class="toolbar--bg">
+    <ion-buttons slot="start">
+      <ion-button class="btn btn--back" routerLink="/">
+        <img src="assets/imgs/vehicle-licence/back-icon.png" />
+      </ion-button>
+    </ion-buttons>
+    <ion-title mode="ios">
+      <img src="assets/imgs/logo.png"/>
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content >
+  <ion-list class="vehicle">
+    <ion-list class="vehicle__list">
+      <ion-list class="vehicle__item">
+        <ion-text class="vehicle__title">Registro de vehículo</ion-text>
+        <ion-list class="vehicle__box">
+          <ion-button class="btn btn--upload" (click)="choiseFile()">
+            <img class="vehicle__icon" src="assets/imgs/vehicle-licence/camera.png" />
+          </ion-button>
+         
+            <img class="img img--document" src="assets/imgs/vehicle-licence/document.png"/>
+         
+        </ion-list>
+        <ion-button class="vehicle__button">Subir foto</ion-button>
+      </ion-list>
+      <ion-text class="vehicle__desc">Tome una foto de su
+        Tarjeta de Circulación</ion-text>
+        <img class="img img--pic" src="assets/imgs/vehicle-licence/pic2.png" />
+        <ion-button class="vehicle__button vehicle__button--next">NEXT</ion-button>
+    </ion-list>
+  </ion-list>
+</ion-content>
