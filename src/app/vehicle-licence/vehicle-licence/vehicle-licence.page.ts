@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { FileChooser, FileChooserOptions } from '@ionic-native/file-chooser/ngx';
+import { FileChooser } from '@ionic-native/file-chooser/ngx';
 
 @Component({
   selector: 'app-vehicle-licence',
